@@ -18,7 +18,7 @@ int main() {
 }
 
 int mdc(int a, int b) {
-    // Algoritmo de Euclides para calcular o MDC
+    // Algoritmo de Euclides para calcular o MDC.ss
     while (b) {
         a %= b;
         a ^= b ^= a ^= b;  // Troca sem variável temporária
